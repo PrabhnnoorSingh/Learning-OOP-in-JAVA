@@ -5,21 +5,21 @@ class LibrarySoftware {
     public static void main(String[]args){
         
         //Assigning a new user in the user class 
-        User youngerUser = new User();
+        User youngerUser = new User("Prabhnoor Singh", "2005-05-08");
 
         //Assigning value to the youngerUser
-        youngerUser.name = "Prabhnoor Singh";
-        youngerUser.birthDate = LocalDate.parse("2005-08-05");
+        // youngerUser.name = "Prabhnoor Singh";
+        // youngerUser.birthDate = LocalDate.parse("2005-08-05");
 
         //printing the information using the printf method
         System.out.printf("%s was born on %s, he is %d Years old now.", youngerUser.name, youngerUser.birthDate.toString(),  youngerUser.age());
 
         // assigning a new user to the user class
-        User olderUser = new User();
+        User olderUser = new User("Narinder Singh","1979-03-04" );
 
         //Assigning value to the olserUser
-        olderUser.name = "Narinder Singh";
-        olderUser.birthDate = LocalDate.parse("1979-03-04");
+        // olderUser.name = "Narinder Singh";
+        // olderUser.birthDate = LocalDate.parse("1979-03-04");
 
         //assigning a new book to the book class
         Book book = new Book();
