@@ -5,4 +5,10 @@ public class Book {
     public String title;
     public String author;
 
+    //Adding the toString method to be referenced later
+    public String toString(){
+        return String.format("%s by %s",this.title,this.author);
+        
+    }
+
 }
