@@ -10,6 +10,12 @@ public class User{
     //initializing the birthDate method as public to be used anywhere in the project and using the LocalDate class for the date 
     public LocalDate birthDate; 
 
+    //modifying the constructor method of this class to make this code simpler
+    User(String name,String birthDate){
+        this.name = name;
+        this.birthDate = LocalDate.parse(birthDate);
+    }
+
     public ArrayList<Book> books = new ArrayList<Book>();
 
     public void borrow(Book book){
