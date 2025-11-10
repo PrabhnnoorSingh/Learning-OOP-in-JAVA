@@ -33,7 +33,7 @@ class LibrarySoftware {
         //printing the info of the older user
         System.out.printf("%s was born on %s, he is %d Years old now.\n", olderUser.getName(), olderUser.getBirthDate(),  olderUser.age()); //changing the user.name and user.birthdate to their getters
 
-        System.out.printf("%s has borrowed the following book: %s",youngerUser.getName(), youngerUser.books.toString());//changing the user.name and user.birthdate to their getters
+        System.out.printf("%s has borrowed the following book: %s",youngerUser.getName(), youngerUser.BorrowedBooks());//changing the user.name and user.birthdate to their getters
     }
 }
  

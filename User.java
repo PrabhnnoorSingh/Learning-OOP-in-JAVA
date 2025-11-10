@@ -30,12 +30,18 @@ public class User{
     }
 
     //making an arrayList for the books that are to be borrowed
-    public ArrayList<Book> books = new ArrayList<Book>();
+    private ArrayList<Book> books = new ArrayList<Book>();
 
-    //steeting up the book borrowing system
+    //setting up the book borrowing system
     public void borrow(Book book){
         this.books.add(book);
     }
+     
+    //Setting the getters for the books arraylist
+    public String BorrowedBooks(){
+        return this.books.toString();
+    }
+
     //initializing the age method as public to be used anywhere in the project
     public int age(){                                                           //using the Period class to stay inide a specified period
         int age = Period.between(this.birthDate, LocalDate.now()).getYears();   //using the .between method to stay inside probided dates
