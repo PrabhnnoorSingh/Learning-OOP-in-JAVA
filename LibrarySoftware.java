@@ -12,7 +12,7 @@ class LibrarySoftware {
         // youngerUser.birthDate = LocalDate.parse("2005-08-05");
 
         //printing the information using the printf method
-        System.out.printf("%s was born on %s, he is %d Years old now.", youngerUser.name, youngerUser.birthDate.toString(),  youngerUser.age());
+        System.out.printf("%s was born on %s, he is %d Years old now.\n", youngerUser.name, youngerUser.birthDate.toString(),  youngerUser.age());
 
         // assigning a new user to the user class
         User olderUser = new User("Narinder Singh","1979-03-04" );
@@ -31,7 +31,7 @@ class LibrarySoftware {
         youngerUser.borrow(book);
 
         //printing the info of the older user
-        System.out.printf("%s was born on %s, he is %d Years old now./n", olderUser.name, olderUser.birthDate.toString(),  olderUser.age());
+        System.out.printf("%s was born on %s, he is %d Years old now.\n", olderUser.name, olderUser.birthDate.toString(),  olderUser.age());
 
         System.out.printf("%s has borrowed the following book: %s",youngerUser.name, youngerUser.books.toString());
     }

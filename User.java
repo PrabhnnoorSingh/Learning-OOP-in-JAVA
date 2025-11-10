@@ -16,8 +16,10 @@ public class User{
         this.birthDate = LocalDate.parse(birthDate);
     }
 
+    //making an arrayList for the books that are to be borrowed
     public ArrayList<Book> books = new ArrayList<Book>();
 
+    //steeting up the book borrowing system
     public void borrow(Book book){
         this.books.add(book);
     }
