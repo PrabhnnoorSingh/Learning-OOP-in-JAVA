@@ -22,11 +22,11 @@ class LibrarySoftware {
         // olderUser.birthDate = LocalDate.parse("1979-03-04");
 
         //assigning a new book to the book class
-        Book book = new Book();
+        Book book = new Book("Carmilla","Sheridan le fanu");
 
-        // Assigning value to the book 
+        /*//Assigning value to the book 
         book.title = "Carmilla";
-        book.author = "Sheridan le fanu";
+        book.author = "Sheridan le fanu";*/
 
         youngerUser.borrow(book);
 
