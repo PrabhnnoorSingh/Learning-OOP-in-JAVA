@@ -5,10 +5,14 @@ import java.util.ArrayList; //importing the ArrayList
 public class User{
     
     //initializing the name method as public to be used anywhere in the project
-    public String name;
+    //public String name;
+    //made the name private
+    private String name;
 
     //initializing the birthDate method as public to be used anywhere in the project and using the LocalDate class for the date 
-    public LocalDate birthDate; 
+    //public LocalDate birthDate; 
+    //made the bitrhDate private
+    private LocalDate birthDate;
 
     //modifying the constructor method of this class to make this code simpler
     User(String name,String birthDate){
