@@ -20,6 +20,15 @@ public class User{
         this.birthDate = LocalDate.parse(birthDate);
     }
 
+    //Setting the getters for the name and the birthDate
+    public String getName(){
+        return this.name;
+    }
+
+    public String getBirthDate(){
+        return this.birthDate.toString();
+    }
+
     //making an arrayList for the books that are to be borrowed
     public ArrayList<Book> books = new ArrayList<Book>();
 
