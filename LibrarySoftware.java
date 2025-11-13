@@ -22,13 +22,14 @@ class LibrarySoftware {
         // olderUser.birthDate = LocalDate.parse("1979-03-04");
 
         //assigning a new book to the book class
-        Book book = new Book("Carmilla","Sheridan le fanu",240);
+        Book Carmilla = new Book("Carmilla","Sheridan le fanu",240);
+        AudioBook Dracula = new AudioBook("Dracula","Bram Stoker",30000);
 
         /*//Assigning value to the book 
         book.title = "Carmilla";
         book.author = "Sheridan le fanu";*/
 
-        youngerUser.borrow(book);
+        youngerUser.borrow(Dracula);
 
         //printing the info of the older user
         System.out.printf("%s was born on %s, he is %d Years old now.\n", olderUser.getName(), olderUser.getBirthDate(),  olderUser.age()); //changing the user.name and user.birthdate to their getters
