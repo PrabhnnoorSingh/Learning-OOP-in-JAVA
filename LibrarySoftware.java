@@ -22,7 +22,7 @@ class LibrarySoftware {
         // olderUser.birthDate = LocalDate.parse("1979-03-04");
 
         //assigning a new book to the book class
-        Book book = new Book("Carmilla","Sheridan le fanu");
+        Book book = new Book("Carmilla","Sheridan le fanu",240);
 
         /*//Assigning value to the book 
         book.title = "Carmilla";
