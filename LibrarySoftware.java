@@ -24,6 +24,7 @@ class LibrarySoftware {
         //assigning a new book to the book class
         Book Carmilla = new Book("Carmilla","Sheridan le fanu",240);
         AudioBook Dracula = new AudioBook("Dracula","Bram Stoker",30000);
+        EBook Jeeves = new EBook("Carry on Jeeves","P.G. Wodehouse", 280, "PDF");
 
         /*//Assigning value to the book 
         book.title = "Carmilla";
